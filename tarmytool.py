@@ -72,7 +72,7 @@ def rom_hammer(time,active):
 	print "Imperians built in this time: %d" %( infsize )
 	print "EI built in this time: %d" % cavsize
 	print "Fire Catapults built in this time: %d" % siege
-	print "Total anvil size:  " + bcolors.OKBLUE + "%d" % (infsize + 2*cavize + siege*6) + bcolors.ENDC
+	print "Total anvil size:  " + bcolors.OKBLUE + "%d" % (infsize + 2*cavsize + siege*6) + bcolors.ENDC
 	print "Total number of villages : " +bcolors.OKCYAN + "%d" % feeder + bcolors.ENDC
 	print ""
 def gaul_hammer(time,active):
